@@ -1,59 +1,38 @@
-# Calculadora
+# 🧮 Calculadora Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+Uma aplicação web de calculadora moderna, responsiva e funcional desenvolvida com **Angular** e **TypeScript**. Projeto criado para praticar conceitos fundamentais do framework, manipulação de eventos, estilização avançada e suporte a teclado físico.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Funcionalidades
 
-```bash
-ng serve
-```
+- 🔢 **Operações Básicas:** Adição, subtração, multiplicação e divisão.
+- ⌨️ **Suporte a Teclado Físico:** Permite digitar números/operadores diretamente no teclado, calcular com `Enter` e limpar com `Backspace`/`Esc`.
+- 🎨 **Interface Moderna:** Design estilo Dark Mode, centralizado e intuitivo.
+- 📱 **Layout Responsivo:** Adaptável a telas de computador e dispositivos móveis.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Tecnologias Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **[Angular](https://angular.dev/):** Framework principal para construção da interface e lógica de componentes.
+- **TypeScript:** Linguagem para escrita de código tipado e manipulação dos eventos.
+- **HTML5 & CSS3:** Estilização customizada utilizando CSS Flexbox e o seletor `:host` do Angular.
+- **FormsModule:** Para comunicação bi-direcional via `[(ngModel)]`.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 💡 Conceitos de Angular Aplicados
 
-```bash
-ng generate --help
-```
+- **Componentização:** Separação limpa entre template (`HTML`), estilo (`CSS`) e lógica (`TS`).
+- **Data Binding:** Uso de `[(ngModel)]` para atualização em tempo real do visor da calculadora.
+- **Event Listener:** Implementação do `@HostListener` para escutar e tratar eventos globais do teclado do usuário.
+- **Encapsulamento de Estilo:** Uso do seletor `:host` para centralização e isolamento do CSS.
 
-## Building
+---
 
-To build the project run:
+## 🔧 Como Executar o Projeto Localmente
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
